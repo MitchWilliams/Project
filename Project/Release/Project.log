@@ -1,0 +1,109 @@
+﻿Build started 25/01/2015 21:23:58.
+     1>Project "C:\Users\Meetch\Documents\Final Year Project\Project\Project\Project.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing project.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Meetch\Documents\boost_1_57_0 /I"C:\Program Files (x86)\MySQL\Connector.C++ 1.1\include" /I.\GeneratedFiles /I. /IC:\Qt\5.3\msvc2012_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\5.3\msvc2012_opengl\include\QtCore /IC:\Qt\5.3\msvc2012_opengl\include\QtGui /IC:\Qt\5.3\msvc2012_opengl\include\QtSql /IC:\Qt\5.3\msvc2012_opengl\include\QtOpenGL /IC:\Qt\5.3\msvc2012_opengl\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D CPPCONN_PUBLIC_FUNC= /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GameControllers.cpp GameObjects.cpp GeneratedFiles\Release\moc_project.cpp main.cpp project.cpp
+         GameControllers.cpp
+         GameObjects.cpp
+         moc_project.cpp
+         main.cpp
+         project.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Meetch\Documents\boost_1_57_0 /I"C:\Program Files (x86)\MySQL\Connector.C++ 1.1\include" /I.\GeneratedFiles /I. /IC:\Qt\5.3\msvc2012_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\5.3\msvc2012_opengl\include\QtCore /IC:\Qt\5.3\msvc2012_opengl\include\QtGui /IC:\Qt\5.3\msvc2012_opengl\include\QtSql /IC:\Qt\5.3\msvc2012_opengl\include\QtOpenGL /IC:\Qt\5.3\msvc2012_opengl\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D CPPCONN_PUBLIC_FUNC= /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_project.cpp
+         qrc_project.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Meetch\Documents\Final Year Project\Project\Win32\Release\\Project.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\MySQL\Connector.C++ 1.1\lib\opt" /LIBPATH:C:\Qt\5.3\msvc2012_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Sql.lib Qt5OpenGL.lib opengl32.lib glu32.lib Qt5Widgets.lib "mysqlcppconn-static.lib" libmysql.lib mysqlcppconn.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\Meetch\Documents\Final Year Project\Project\Win32\Release\Project.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Meetch\Documents\Final Year Project\Project\Win32\Release\Project.lib" /MACHINE:X86 /SAFESEH Release\GameControllers.obj
+         Release\GameObjects.obj
+         Release\qrc_project.obj
+         Release\moc_project.obj
+         Release\main.obj
+         Release\project.obj
+     1>mysqlcppconn-static.lib(mysql_driver.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_connection.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_native_driver_wrapper.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_statement.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_warning.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_prepared_statement.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_debug.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_metadata.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_uri.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_util.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_client_api.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_native_connection_wrapper.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_resultset.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_resultbind.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_ps_resultset.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_parameter_metadata.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_ps_resultset_metadata.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_art_resultset.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_native_resultset_wrapper.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_native_statement_wrapper.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_resultset_metadata.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(mysql_art_rset_metadata.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(net_serv.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(plugin_client.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(client_authentication.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(my_default.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(ssl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(yassl_int.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(handshake_client.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(my_aes_yassl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(crypto_wrapper.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(yassl_imp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(handshake.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(cert_wrapper.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(asn.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(my_rnd.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(crypt_genhash_impl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(my_sha1.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(integer.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(handshake.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(common.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(log_client.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(my_aes.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(dsa.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(dh.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(rsa.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>mysqlcppconn-static.lib(algebra.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in GameControllers.obj
+     1>LIBCMT.lib(invarg.obj) : error LNK2005: __invoke_watson already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(invarg.obj) : error LNK2005: __set_invalid_parameter_handler already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(crt0dat.obj) : error LNK2005: __amsg_exit already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(crt0dat.obj) : error LNK2005: __cexit already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(crt0dat.obj) : error LNK2005: __exit already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(crt0dat.obj) : error LNK2005: __initterm_e already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(crt0dat.obj) : error LNK2005: _exit already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(wsetloca.obj) : error LNK2005: __configthreadlocale already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(_file.obj) : error LNK2005: ___iob_func already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(_file.obj) : error LNK2005: __lock_file already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(_file.obj) : error LNK2005: __unlock_file already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(dosmap.obj) : error LNK2005: __errno already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(crtheap.obj) : error LNK2005: __calloc_crt already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(winapisupp.obj) : error LNK2005: ___crtGetShowWindowMode already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(winapisupp.obj) : error LNK2005: ___crtSetUnhandledExceptionFilter already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(winapisupp.obj) : error LNK2005: ___crtTerminateProcess already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(winapisupp.obj) : error LNK2005: ___crtUnhandledException already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(hooks.obj) : error LNK2005: "void __cdecl terminate(void)" (?terminate@@YAXXZ) already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(winsig.obj) : error LNK2005: _signal already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(crt0init.obj) : error LNK2005: ___xi_a already defined in MSVCRT.lib(cinitexe.obj)
+     1>LIBCMT.lib(crt0init.obj) : error LNK2005: ___xi_z already defined in MSVCRT.lib(cinitexe.obj)
+     1>LIBCMT.lib(crt0init.obj) : error LNK2005: ___xc_a already defined in MSVCRT.lib(cinitexe.obj)
+     1>LIBCMT.lib(crt0init.obj) : error LNK2005: ___xc_z already defined in MSVCRT.lib(cinitexe.obj)
+     1>LIBCMT.lib(mlock.obj) : error LNK2005: __lock already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(mlock.obj) : error LNK2005: __unlock already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(winxfltr.obj) : error LNK2005: __XcptFilter already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(fflush.obj) : error LNK2005: _fflush already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(errmode.obj) : error LNK2005: ___set_app_type already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(abort.obj) : error LNK2005: __set_abort_behavior already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(strnicmp.obj) : error LNK2005: __strnicmp already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(osfinfo.obj) : error LNK2005: __get_osfhandle already defined in MSVCRT.lib(MSVCR120.dll)
+     1>LIBCMT.lib(osfinfo.obj) : error LNK2005: __open_osfhandle already defined in MSVCRT.lib(MSVCR120.dll)
+     1>qtmain.lib(qtmain_win.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1800' in GameControllers.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>C:\Users\Meetch\Documents\Final Year Project\Project\Win32\Release\\Project.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "C:\Users\Meetch\Documents\Final Year Project\Project\Project\Project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:01.22
